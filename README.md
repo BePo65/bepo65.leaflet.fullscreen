@@ -84,7 +84,7 @@ export class AppComponent implements AfterViewInit {
     this.map.on('enterFullscreen', () => console.log('enterFullscreen'));
     this.map.on('exitFullscreen', () => console.log('exitFullscreen'));
   }
-
+}
 ```
 
 __Plain javascript environments__:
