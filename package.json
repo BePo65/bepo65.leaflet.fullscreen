@@ -1,0 +1,65 @@
+{
+  "name": "@bepo65/leaflet.fullscreen",
+  "version": "2.0.0",
+  "description": "Simple plugin for Leaflet that adds fullscreen button to your maps.",
+  "main": "Control.FullScreen.js",
+  "scripts": {
+    "lint": "eslint --config .eslintrc Control.FullScreen.js",
+    "init-changelog": "standard-version -i CHANGELOG.md --same-file --prerelease pre --first-release",
+    "release": "standard-version -i CHANGELOG.md --same-file"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BePo65/leaflet.fullscreen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BePo65/leaflet.fullscreen/issues"
+  },
+  "homepage": "https://github.com/BePo65/leaflet.fullscreen",
+  "keywords": [
+    "leaflet",
+    "plugins",
+    "maps",
+    "fullscreen",
+    "angular"
+  ],
+  "author": "BePo65",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "screenfull": "^5.1.0"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.7.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-angular": "^11.0.0",
+    "eslint": "^7.19.0",
+    "husky": "^5.0.9",
+    "standard-version": "^9.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "standard-version": {
+    "packageFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ],
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      },
+      {
+        "filename": "README.md",
+        "updater": "tools/npm-scripts/readme-updater.js"
+      }
+    ]
+  }
+}

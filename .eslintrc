@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "camelcase": 0,
+    "quotes": ["error", "single", "avoid-escape"],
+    "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+    "space-before-function-paren": ["error", "never"],
+    "space-in-parens": "error",
+    "object-curly-spacing": ["error", "never"],
+    "array-bracket-spacing": "error",
+    "computed-property-spacing": "error",
+    "space-before-blocks": "error",
+    "keyword-spacing": "error",
+    "no-lonely-if": "error",
+    "comma-style": "error",
+    "no-underscore-dangle": 0,
+    "no-constant-condition": 0,
+    "no-multi-spaces": 0,
+    "strict": 0,
+    "key-spacing": 0,
+    "no-shadow": 0,
+    "no-unused-vars": 2
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true
+  }
+}
