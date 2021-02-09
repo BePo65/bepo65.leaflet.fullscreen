@@ -1,5 +1,5 @@
 # @bepo65/leaflet.fullscreen
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-2.0.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE)
 
 > leaflet.fullscreen is a clone of the project [brunob/leaflet.fullscreen](https://github.com/brunob/leaflet.fullscreen). Modifications were made to adapt it to the requirements of typescript users, e.g. for Angular (tested) and React (not tested).
