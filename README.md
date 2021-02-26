@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/badge/version-2.0.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE)
 
-> leaflet.fullscreen is a clone of the project [brunob/leaflet.fullscreen](https://github.com/brunob/leaflet.fullscreen). Modifications were made to adapt it to the requirements of typescript users, e.g. for Angular (tested) and React (not tested).
+> @bepo65/leaflet.fullscreen is a clone of the project [brunob/leaflet.fullscreen](https://github.com/brunob/leaflet.fullscreen). Modifications were made to adapt it to the requirements of typescript users, e.g. for Angular (tested) and React (not tested).
 
 ## Objective
 Simple plugin for Leaflet that adds fullscreen button to your maps.  
@@ -162,7 +162,7 @@ The following is the list of supported scopes:
 
 **Bernhard Pottler**
 
-  on Github: [@BePo65](https://github.com/BePo65)
+on Github: [@BePo65](https://github.com/BePo65)
 
 
 ## License
@@ -170,3 +170,5 @@ The following is the list of supported scopes:
 Copyright © 2021 [Bernhard Pottler](https://github.com/BePo65).
 
 This project and all of its packages are released under [MIT](https://github.com/BePo65/leaflet.fullscreen/blob/master/LICENSE) license.
+
+This project is based on the project [brunob/leaflet.fullscreen](https://github.com/brunob/leaflet.fullscreen) with copyright from Bruno Bergot.
