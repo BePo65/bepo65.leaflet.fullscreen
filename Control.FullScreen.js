@@ -7,7 +7,7 @@
   if (typeof define === 'function' && define.amd) {
     // define an AMD module that requires 'leaflet' and 'screenfull'
     define(['leaflet', 'screenfull'], factory);
-  } else if (typeof modules === 'object' && module.exports) {
+  } else if (typeof module === 'object' && module.exports) {
     // define a CommonJS module that requires 'leaflet' and 'screenfull'
     module.exports = factory(require('leaflet'), require('screenfull'));
   } else {
